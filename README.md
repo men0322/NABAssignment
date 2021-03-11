@@ -249,7 +249,7 @@ extension UILabel {
 ```
 ### TESTING:
 Using `Qick` and `Nimble`
-
+Using SwiftMockGeneratorForXcode to genera Mock
 ```swift
 
 final class HomeViewModelSpec: QuickSpec {
