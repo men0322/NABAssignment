@@ -1,0 +1,93 @@
+PODS:
+  - Action (4.2.0):
+    - RxCocoa (< 7.0, >= 5.0)
+    - RxSwift (< 7.0, >= 5.0)
+  - Alamofire (5.4.0)
+  - Differentiator (4.0.1)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - Nimble (9.0.0)
+  - ObjectMapper (4.2.0)
+  - Quick (3.0.0)
+  - R.swift (5.3.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SwiftLint (0.41.0)
+
+DEPENDENCIES:
+  - Action
+  - Alamofire
+  - Kingfisher
+  - Nimble
+  - ObjectMapper
+  - Quick
+  - R.swift
+  - RxCocoa
+  - RxDataSources
+  - RxOptional
+  - RxSwift
+  - RxSwiftExt
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - Nimble
+    - ObjectMapper
+    - Quick
+    - R.swift
+    - R.swift.Library
+    - RxCocoa
+    - RxDataSources
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
+  R.swift: 4170fb7161c67be3bc1a847040b79367d69c419f
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
+
+PODFILE CHECKSUM: 299303c4d600f79ec597a75d3d92f08b6662c697
+
+COCOAPODS: 1.10.0

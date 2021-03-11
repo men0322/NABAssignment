@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HNWeatherTableViewCell" rowHeight="119" id="KGk-i7-Jjw" customClass="HNWeatherTableViewCell" customModule="HNAssignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="486" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="486" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghG-vm-ikG">
+                        <rect key="frame" x="0.0" y="0.0" width="486" height="119"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KF6-hY-qVJ">
+                                <rect key="frame" x="16" y="8" width="454" height="102.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="C01-k9-V70">
+                                        <rect key="frame" x="0.0" y="0.0" width="454" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecw-XT-a91" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="0.0" y="0.0" width="404.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVa-Al-9lS" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="412.5" y="0.0" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="11Y-Bf-4aG">
+                                        <rect key="frame" x="0.0" y="20.5" width="454" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNo-0z-oxi" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="0.0" y="0.0" width="404.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXh-7v-kUC" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="412.5" y="0.0" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oGw-jW-7MY">
+                                        <rect key="frame" x="0.0" y="41" width="454" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahP-IW-Shn" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="0.0" y="0.0" width="404.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejt-n9-HVh" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="412.5" y="0.0" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rrb-Pv-iNZ">
+                                        <rect key="frame" x="0.0" y="61.5" width="454" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZs-ZV-qJ9" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="0.0" y="0.0" width="404.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njf-Mr-lkh" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="412.5" y="0.0" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hLe-9y-T5U">
+                                        <rect key="frame" x="0.0" y="82" width="454" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAM-JC-pG8" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="0.0" y="0.0" width="404.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymC-p8-PYG" customClass="DSLabel" customModule="HNDesignSystem">
+                                                <rect key="frame" x="412.5" y="0.0" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KF6-hY-qVJ" firstAttribute="top" secondItem="ghG-vm-ikG" secondAttribute="top" constant="8" id="3Gl-aM-KYb"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KF6-hY-qVJ" secondAttribute="bottom" constant="8" id="SQ4-50-NSM"/>
+                            <constraint firstItem="KF6-hY-qVJ" firstAttribute="leading" secondItem="ghG-vm-ikG" secondAttribute="leading" constant="16" id="f5I-dF-6Uc"/>
+                            <constraint firstAttribute="trailing" secondItem="KF6-hY-qVJ" secondAttribute="trailing" constant="16" id="q8q-f1-qzr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ghG-vm-ikG" secondAttribute="trailing" id="KE0-nq-pG7"/>
+                    <constraint firstItem="ghG-vm-ikG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VYX-4x-zmU"/>
+                    <constraint firstItem="ghG-vm-ikG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bkY-57-x4G"/>
+                    <constraint firstAttribute="bottom" secondItem="ghG-vm-ikG" secondAttribute="bottom" id="ehJ-PY-rvy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="averageTemperatureTitleLabel" destination="HNo-0z-oxi" id="o8Q-XO-AbE"/>
+                <outlet property="averageTemperatureValueLabel" destination="GXh-7v-kUC" id="dus-vy-1Dj"/>
+                <outlet property="dateTitleLabel" destination="ecw-XT-a91" id="Rt3-NP-qLS"/>
+                <outlet property="dateValueLabel" destination="NVa-Al-9lS" id="YXm-Qi-vES"/>
+                <outlet property="descriptionTitleLabel" destination="bAM-JC-pG8" id="449-d7-OGH"/>
+                <outlet property="descriptionValueLabel" destination="ymC-p8-PYG" id="dME-Fx-Kcb"/>
+                <outlet property="himidityValueLabel" destination="njf-Mr-lkh" id="rc0-Y3-zXi"/>
+                <outlet property="humidityTitleLabel" destination="IZs-ZV-qJ9" id="qPX-U0-uuT"/>
+                <outlet property="pressureTitleLabel" destination="ahP-IW-Shn" id="nQt-oK-cYx"/>
+                <outlet property="pressureValueLabel" destination="ejt-n9-HVh" id="xUw-1g-EWV"/>
+            </connections>
+            <point key="canvasLocation" x="340.57971014492756" y="148.99553571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

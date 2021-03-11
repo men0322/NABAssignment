@@ -1,0 +1,25 @@
+//
+//  Localizable.strings
+//  HNAssignment
+//
+//  Created by NGUYEN HUNG on 3/10/21 on 1/23/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// MARK: - Common
+"common.ok" = "OK";
+
+// MARK: - Home
+"home.nav.title" = "Movies";
+
+// MARK: - Error
+"home.error.message" = "Can't connect to this server \n ErrorCode: %s";
+
+// MARK: - ForeCast
+"home.forecast.date.title" = "Date";
+"home.forecast.averageTemperature.title" = "Average Temperature";
+"home.forecast.pressure.title" = "Pressure";
+"home.forecast.humidity.title" = "Humidity";
+"home.forecast.description.title" = "Description";

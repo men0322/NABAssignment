@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HNAssignment/README.md">
+   </FileRef>
+   <FileRef
+      location = "group:HNAssignment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:APP/HNService/HNService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:APP/HNDesignSystem/HNDesignSystem.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:APP/HNCommon/HNCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
